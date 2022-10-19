@@ -1,0 +1,3 @@
+C:\Users\Jio Domer\Desktop\Meal Planner>git add Test.txt
+C:\Users\Jio Domer\Desktop\Meal Planner>git commit -m "Test"
+C:\Users\Jio Domer\Desktop\Meal Planner>git push https://github.com/JioDomer/Noob.git
