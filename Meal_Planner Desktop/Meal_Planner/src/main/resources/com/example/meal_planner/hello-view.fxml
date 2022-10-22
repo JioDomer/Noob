@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -11,25 +12,44 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="406.0" fitWidth="634.0" layoutX="-3.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="406.0" fitWidth="634.0" layoutX="-3.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-30.0" AnchorPane.topAnchor="24.0">
          <image>
             <Image url="@../../../../../../../pexels-ella-olsson-1640777.jpg" />
          </image>
       </ImageView>
-      <AnchorPane prefHeight="48.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+      <AnchorPane prefHeight="53.0" prefWidth="600.0" style="-fx-background-color: #000000;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="WHITE" layoutX="34.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meal Planner">
+            <Text fill="WHITE" layoutX="34.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meal Planner" AnchorPane.leftAnchor="34.0" AnchorPane.topAnchor="6.830078125">
                <font>
                   <Font name="Century Gothic Bold" size="29.0" />
                </font>
             </Text>
-            <TextField layoutX="310.0" layoutY="13.0" prefHeight="25.0" prefWidth="108.0" promptText="Username" />
-            <PasswordField layoutX="426.0" layoutY="13.0" prefHeight="25.0" prefWidth="108.0" promptText="Password" />
-            <MFXButton layoutX="545.0" layoutY="17.0" rippleRadius="19.0" text="Login">
+            <TextField layoutX="310.0" layoutY="14.0" prefHeight="25.0" prefWidth="108.0" promptText="Username" AnchorPane.rightAnchor="182.0" AnchorPane.topAnchor="14.0" />
+            <PasswordField layoutX="426.0" layoutY="14.0" prefHeight="25.0" prefWidth="108.0" promptText="Password" AnchorPane.rightAnchor="66.0" AnchorPane.topAnchor="14.0" />
+            <MFXButton layoutX="545.0" layoutY="18.0" rippleRadius="19.0" text="Login" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="18.0">
                <font>
                   <Font size="8.0" />
                </font>
             </MFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="365.0" prefHeight="23.0" prefWidth="609.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="-7.0">
+         <children>
+            <Button layoutX="510.0" layoutY="3.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="38.0" style="-fx-background-color: #000000;" text="Meals" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Button>
+            <Button layoutX="460.0" layoutY="3.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="53.0" style="-fx-background-color: #000000;" text="About Us" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Button>
+            <Button layoutX="544.0" layoutY="3.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="45.0" style="-fx-background-color: #000000;" text="Review" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
    </children>
