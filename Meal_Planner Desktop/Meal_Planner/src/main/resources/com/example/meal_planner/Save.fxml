@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="49.0" prefHeight="42.0" prefWidth="600.0" style="-fx-background-color: #000000;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="WHITE" layoutX="32.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meal Planner" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="2.830078125">
+               <font>
+                  <Font name="Century Gothic Bold" size="29.0" />
+               </font>
+            </Text>
+            <Button layoutX="537.0" layoutY="15.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="36.0" text="Logout">
+               <font>
+                  <Font name="Century Gothic Bold" size="7.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="408.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, Kristine Joy! ">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="33.0" layoutY="62.0" prefHeight="25.0" prefWidth="417.0" promptText="Search a Meal" />
+      <Button layoutX="406.0" layoutY="62.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="44.0" text="Search">
+         <font>
+            <Font name="Century Gothic Bold" size="7.0" />
+         </font>
+      </Button>
+      <Button layoutX="463.0" layoutY="62.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #000000;" text="Saved Meals" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="8.0" />
+         </font>
+      </Button>
+      <Button layoutX="533.0" layoutY="62.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #000000;" text="Profile" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="8.0" />
+         </font>
+      </Button>
+      <ScrollBar layoutX="555.0" layoutY="114.0" orientation="VERTICAL" prefHeight="243.0" prefWidth="14.0" style="-fx-background-color: #000000;" />
+      <AnchorPane layoutX="33.0" layoutY="114.0" prefHeight="90.0" prefWidth="501.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Text layoutX="13.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zucchini Lattice Lasagna">
+               <font>
+                  <Font name="Century Gothic Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="13.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="when we're craving something a tad less carb-heavy, we turn to this summery zucchini version. Pro tip: Zucchini releases a good amount of water, so we like to dab it with a paper towel when the lasagna is done cooking, and then broil until the cheese is bubbly and crispy. " textAlignment="JUSTIFY" wrappingWidth="353.6456604003906">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="77.0" fitWidth="119.0" layoutX="377.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/one-pot-healthy-chicken-pasta-149595-2-modified.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="33.0" layoutY="211.0" prefHeight="90.0" prefWidth="501.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Text layoutX="13.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lemon Pepper Baked Chicken">
+               <font>
+                  <Font name="Century Gothic Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="13.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you throw chicken into a pan with salt and pepper and bake it for forever, of course it's going to be terrible. We know this sounds obvious, but it's what so many people trying to &quot;eat healthy&quot; do.If you throw chicken into a pan with salt and pepper and bake it for forever, of course it's going to be terrible. We know this sounds obvious, but it's what so many people trying to &quot;eat healthy&quot; do." textAlignment="JUSTIFY" wrappingWidth="353.6456604003906">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="77.0" fitWidth="119.0" layoutX="377.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/Healthy-Chicken-with-Vegetable-Skillet-1-modified.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="34.0" layoutY="313.0" prefHeight="90.0" prefWidth="501.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Text layoutX="13.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buddha Bowl">
+               <font>
+                  <Font name="Century Gothic Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="13.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The beauty about these bowls is that they're infinitely adaptable—you can roast just about any veggie, use any number of toppings, and it'll tasteThe beauty about these bowls is that they're infinitely adaptable—you can roast just about any veggie, use any number of toppings, and it'll taste" textAlignment="JUSTIFY" wrappingWidth="353.6456604003906">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="76.0" fitWidth="110.0" layoutX="378.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/healthy-tuna-pasta-bake-p46-151271-2-modified.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
