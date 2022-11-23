@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="49.0" prefHeight="42.0" prefWidth="600.0" style="-fx-background-color: #000000;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="WHITE" layoutX="32.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meal Planner" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="2.830078125">
+               <font>
+                  <Font name="Century Gothic Bold" size="29.0" />
+               </font>
+            </Text>
+            <Button layoutX="537.0" layoutY="15.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="36.0" text="Logout">
+               <font>
+                  <Font name="Century Gothic Bold" size="7.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="408.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, Kristine Joy! ">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="30.0" layoutY="54.0" prefHeight="320.0" prefWidth="540.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Text layoutX="211.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zucchini Lattice Lasagna">
+               <font>
+                  <Font name="Century Gothic Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="212.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="when we're craving something a tad less carb-heavy, we turn to this summery zucchini version. Pro tip: Zucchini releases a good amount of water, so we like to dab it with a paper towel when the lasagna is done cooking, and then broil until the cheese is bubbly and crispy. " textAlignment="JUSTIFY" wrappingWidth="307.6456604003906">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="113.0" fitWidth="354.0" layoutX="28.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/one-pot-healthy-chicken-pasta-149595-2-modified.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="211.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="when we're craving something a tad less carb-heavy, we turn to this summery zucchini version. Pro tip: Zucchini releases a good amount of water, so we like to dab it with a paper towel when the lasagna is done cooking, and then broil until the cheese is bubbly and crispy. " textAlignment="JUSTIFY" wrappingWidth="307.6456604003906">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Line endX="415.0" layoutX="103.0" layoutY="152.0" startX="-72.0" />
+            <Text layoutX="30.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="when we're craving something a tad less carb-heavy, we turn to this summery zucchini version. Pro tip: Zucchini releases a good amount of water, so we like to dab it with a paper towel when the lasagna is done cooking, and then broil until the cheese is bubbly and crispy. " textAlignment="JUSTIFY" wrappingWidth="488.0">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="31.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 Servings" textAlignment="JUSTIFY" wrappingWidth="42.666664123535156">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="94.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 mins" textAlignment="JUSTIFY" wrappingWidth="34.0">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="158.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30 mins" textAlignment="JUSTIFY" wrappingWidth="33.333343505859375">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="225.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="40 mins" textAlignment="JUSTIFY" wrappingWidth="34.66667175292969">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Line endX="160.0" endY="41.666656494140625" layoutX="-79.0" layoutY="201.0" startX="160.0" startY="28.464599609375" />
+            <Line endX="160.0" endY="41.666656494140625" layoutX="-19.0" layoutY="200.0" startX="160.0" startY="28.464599609375" />
+            <Line endX="160.0" endY="41.666656494140625" layoutX="49.0" layoutY="200.0" startX="160.0" startY="28.464599609375" />
+            <Text layoutX="39.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YEILDS:" textAlignment="JUSTIFY" wrappingWidth="34.0">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="90.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PREP TIME:" textAlignment="JUSTIFY" wrappingWidth="50.00001525878906">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="149.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COOK TIME:" textAlignment="JUSTIFY" wrappingWidth="54.0">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="215.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL TIME:" textAlignment="JUSTIFY" wrappingWidth="54.0">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Text>
+            <Button layoutX="442.0" layoutY="244.0" mnemonicParsing="false" prefHeight="1.0" prefWidth="64.0" style="-fx-background-color: #000000;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Button>
+            <Button layoutX="441.0" layoutY="222.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="66.0" style="-fx-background-color: #000000;" text="Save meal" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Button>
+            <Circle layoutX="290.0" layoutY="221.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle layoutX="290.0" layoutY="236.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle layoutX="290.0" layoutY="251.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle layoutX="290.0" layoutY="266.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text layoutX="300.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preheat oven to 425°." textAlignment="JUSTIFY" wrappingWidth="96.0">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="301.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cook until golden and no " textAlignment="JUSTIFY" wrappingWidth="128.66665649414062">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Line endX="415.0" layoutX="102.0" layoutY="203.0" startX="-72.0" />
+            <Text layoutX="302.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preheat oven to 425°." textAlignment="JUSTIFY" wrappingWidth="96.0">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="303.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 tablespoon olive oil until " textAlignment="JUSTIFY" wrappingWidth="128.66665649414062">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="34.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1/4 c. Juice of 1 lime1 tbsp. low-sodium soy sauce1 tbsp. honey1 tbsp. toasted sesame oil4 c. cooked brown rice1 " textAlignment="JUSTIFY" wrappingWidth="233.2192382812501">
+               <font>
+                  <Font name="Century Gothic" size="9.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
